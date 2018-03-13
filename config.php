@@ -14,7 +14,7 @@
   define('DB_HOST','127.0.0.1');
   define('DB_USER','root');
   define('DB_PW','');
-  define('DB_NAME','digitools');
+  define('DB_NAME','db_name');
   define('DB_PORT',3306);
 
   define('DEBUG_MODE', TRUE);

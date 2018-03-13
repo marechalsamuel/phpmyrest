@@ -98,6 +98,8 @@
 
     $connected = false;
 
+    eraseClasses();
+    
     if (isset($_POST['db_connect'])) {
         try {
             $connection = connect();
@@ -108,7 +110,6 @@
     }
 
     if ($connected) {
-        eraseClasses();
         $MyValidator = createValidatorsJson($connection, $_POST['db_name']);
         file_put_contents('requirements.php', '?>', FILE_APPEND);
         ?>

@@ -8,7 +8,7 @@
   define('HTTP_STATUS_DATA_ERROR', 400);
   define('HTTP_STATUS_SERVER_ERROR', 500);
 
-  define('API_KEY', 'TGEKGihJQ2ip04p8G0NZ6z0FCQReZTHX');
+  define('API_KEY', '4p1k3y');
 
   define('DB_TYPE','mysql');
   define('DB_HOST','127.0.0.1');
